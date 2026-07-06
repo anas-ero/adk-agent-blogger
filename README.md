@@ -1,35 +1,43 @@
-ADK Multi-Agent Blogger
+````markdown
+# ADK Multi-Agent Blogger
 
-A multi-agent blog generation system built with Google Agent Development Kit (ADK). The application uses specialized agents to plan, write, and validate technical blog posts through a coordinated workflow.
+A multi-agent AI application built with the Google Agent Development Kit (ADK) that generates technical blog posts through a planning, writing, and validation workflow.
 
-Features
+## Features
 
-Multi-agent architecture with Google ADK
+- Multi-agent architecture using Google ADK
+- Automatic blog outline generation
+- Technical article generation in Markdown
+- Validation and retry mechanism with `LoopAgent`
+- Modular and extensible agent design
 
-Automatic blog outline generation
+## Installation
 
-Technical blog writing in Markdown
+Clone the repository:
 
-Outline and article validation
+Install the dependencies:
 
-Automatic retries using LoopAgent
-
-
-Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
-Environment Variables
+Create a `.env` file:
 
-Create a .env file:
-
+```env
 MODEL="gemini-flash-lite-latest"
 GOOGLE_API_KEY=YOUR_API_KEY
+```
 
-Running the Project
+## Usage
 
-Start the ADK application:
+Start the ADK development server:
 
+```bash
 adk web
+```
 
-Then interact with the Blogger agent by providing a blog topic.
+Open the local ADK interface and interact with the **Blogger** agent.
+
+
+```
+```
